@@ -14,15 +14,16 @@ function createDropDown(){
         dropDown.append(option)
     }
     dropDown.addEventListener("change", function(e){
-        e.target.parent.backgroundColor = e.target.value
-    })
+        e.target.parentElement.style.backgroundColor = e.target.value
+    }) 
+    
     return dropDown
 }
 
 function createSubItem(e){
     const subItem = document.createElement("div")
-    var subItemValue = document.getElementById("input")
-    subItem.value = subItemValue
+    var subItemValue = document.getElementById("input").value
+    subItem.textContent = subItemValue
     const dropDown = createDropDown()
     subItem.appendChild(dropDown)
     subItem.setAttribute("class", "subItem")
