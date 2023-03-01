@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+/* Mobile Phones */
+.header{
+    grid-column: 3 / 9;
+    justify-self: center;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline;
+}
+
+.logo {
+  justify-self: center;
+  border: 5px solid red;
+  padding: 5px;
+  grid-column: 3 / 9;
+}
+
+.nav {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px solid red;
+  width: 100%;
+  background-color: linen;
+  grid-column: 1 / 11;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.home {
+  font-weight: bold;
+  border: 1px solid black;
+}
+.balls {
+  font-weight: bold;
+  border: 1px solid black;
+}
+.tm {
+  font-weight: bold;
+  border: 1px solid black;
+}
+.medecine {
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.flex-box {
+  border: 5px solid rgb(250, 0, 0);
+  height: auto;
+  display: grid;
+  grid-column: 1 / 11;
+  justify-self: center;
+}
+.welcome {
+  justify-self: center;
+  font-size: 30px;
+}
+.description {
+  font-size: 20px;
+}
+.item-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 5px;
+  border: 5px solid red;
+  padding: 10px;
+  grid-column: 1 / 11;
+}
+.pokeball{
+    width: 100px;
+    height: 100px;
+    
+}
+.tm-pic{
+    width: 100px;
+    height: 100px;
+    
+}
+.potion{
+    width: 100px;
+    height: 100px;
+   
+}
+.greatball{
+    width: 100px;
+    height: 100px;
+   
+}
+.ultraball{
+    width: 100px;
+    height: 100px;
+   
+}
+.luxuryball{
+    width: 100px;
+    height: 100px;
+    
+}
+.max-revive{
+    width: 100px;
+    height: 100px;
+}
+.shelbell{
+    width: 100px;
+    height: 100px;
+}
+@media only screen and(min-width: 768px){
+    .header{
+        grid-column: 1 / 11;
+        justify-self: center;
+        font-weight: bold;
+        font-size: large;
+    }
+    
+    .logo {
+      justify-self: center;
+      border: 5px solid red;
+      padding: 5px;
+      grid-column: 1 / 11;
+    }
+    
+    .nav {
+      display: flex;
+      position: fixed;
+      justify-content: space-between;
+      align-items: center;
+      border: 5px solid red;
+      width: 100%;
+      background-color: linen;
+      grid-column: 1 / 11;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .home {
+      font-weight: bold;
+      border: 1px solid black;
+    }
+    .balls {
+      font-weight: bold;
+      border: 1px solid black;
+    }
+    .tm {
+      font-weight: bold;
+      border: 1px solid black;
+    }
+    .medecine {
+      font-weight: bold;
+      border: 1px solid black;
+    }
+    
+    .flex-box {
+      border: 5px solid rgb(250, 0, 0);
+      height: auto;
+      display: grid;
+      grid-column: 1 / 11;
+      justify-self: center;
+    }
+    .welcome {
+      justify-self: center;
+      font-size: 30px;
+    }
+    .description {
+      font-size: 20px;
+    }
+    .item-grid{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-gap: 5px;
+      border: 5px solid red;
+      padding: 10px;
+      grid-column: 1 / 11;
+    }
+    .pokeball{
+        width: 100px;
+        height: 100px;
+        
+    }
+    .tm-pic{
+        width: 100px;
+        height: 100px;
+        
+    }
+    .potion{
+        width: 100px;
+        height: 100px;
+       
+    }
+    .greatball{
+        width: 100px;
+        height: 100px;
+       
+    }
+    .ultraball{
+        width: 100px;
+        height: 100px;
+       
+    }
+    .luxuryball{
+        width: 100px;
+        height: 100px;
+        
+    }
+    .max-revive{
+        width: 100px;
+        height: 100px;
+    }
+    .shelbell{
+        width: 100px;
+        height: 100px;
+    }
+}
