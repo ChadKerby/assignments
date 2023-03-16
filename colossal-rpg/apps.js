@@ -15,7 +15,7 @@ let name = readline.question("\nEnter you indentifier code: ");
 // Player Stats
 let player = {
   name: name,
-  hp: 100,
+  hp: 1000,
   inventory: [],
 };
 
@@ -135,7 +135,11 @@ function run() {
 }
 
 
-
+const Enemies = (name, hp){
+  this.name = name
+  this.hp = hp
+}
+const newEnemy = new Enemies("Blorp", 100)
 
 
 
@@ -154,15 +158,7 @@ function run() {
 //       hp: 100,
 //   }]
 
-//   function enemies(enemy) {
-//     for(var i = 0; i < enemy.lenght; i++)
-//     // let enemyList = ["Blorp", "Gamorrean", "Wookie Extremist"];
-//     // Use a new var to make a random enemy appear
-//     var randomEnemy = randomNum(0, 2);
-//     // Assign random enemy to var
-//     var newEnemy = [i][randomEnemy];
-//     fight(newEnemy);
-//   }
+
 
   
  // // function isAlive(){

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css"/>
+        <title>3 Travel</title>
+    </head>
+    <body>
+        <h1 class="header">3 Travel</h1>
+        <form name="myForm" class="my-form">
+            <input type="text" name="first-name" placeholder="First Name"/>
+            <br>
+            <input type="text" name="last-name" placeholder="Last Name"/>
+            <br>
+            <input type="number" name="age" placeholder="Age"/>
+            <br>
+            Male: <input type="radio" name="gender" value="Male"/>
+            Female: <input type="radio" name="gender" value="Female"/>
+            <br>
+            <br>
+            Where are you traveling to?
+            <br>
+            Japan: <input type="checkbox" value="Japan" name="travel"/>
+            Germany: <input type="checkbox" value="Germany" name="travel"/>
+            Italy: <input type="checkbox" value="Italy" name="travel"/>
+            <br>
+            <br>
+            Please check any dietary restrictions:
+            <br>
+            Vegan: <input  type="checkbox" name="diet" id="vegan" value="vegan">
+            <br>
+            Gluten Free: <input  type="checkbox" name="diet" id="gluten" value="gluten-free">
+            <br>
+            Paleo: <input  type="checkbox" name="diet" id="paleo" value="paleo">            
+            <br>
+            <button type="button" id="submit">Submit</button>
+        </form>
+
+         <script src="index.js"></script>     
+    </body>
+</html>

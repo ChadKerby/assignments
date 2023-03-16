@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(231, 231, 231);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+}
+.header{
+    grid-column: 3 / 6;
+    justify-self: center;
+    border-radius: 5px;
+    border-color: black;
+    color: rgb(69, 255, 177);
+}
+
+/* Add */
+.my-add{
+    grid-column: 1;
+    padding: 10px;
+    
+}
+.add-result{
+    grid-column: 1;
+    grid-row: 3;
+}
+.addBtn{
+    color: lightgreen;
+}
+.my-sub{
+    grid-column: 4;
+    padding: 10px;
+    
+}
+
+/* Subtract */
+.sub-result{
+    grid-column: 4;
+    grid-row: 3;
+}
+.subBtn{
+    color:lightskyblue;
+}
+
+/* Multiply */
+.my-mul{
+    grid-column: 7;
+    padding: 10px; 
+    
+}
+.mul-result{
+    grid-column: 7;
+    grid-row: 3;
+}
+.mulBtn{
+    color: lightcoral;
+}

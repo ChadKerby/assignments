@@ -13,11 +13,11 @@
 // console.log(largest([-13, 40, 3, 0, 19, 22]));
 
 // Write a function that takes an array of words and a character and returns each word that has that character present.
-function lettersWithStrings(arr, char) {
+function lettersWithStrings(array, char) {
     let stringsWithLetters = [];
-    for (let i = 0; i < arr.length; i++) {
-      if (arr[i].includes(char)) {
-        stringsWithLetters.push(arr[i]);
+    for (let i = 0; i < array.length; i++) {
+      if (array[i].includes(char)) {
+        stringsWithLetters.push(array[i]);
       }
     }
     return stringsWithLetters;
