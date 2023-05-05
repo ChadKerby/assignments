@@ -135,11 +135,11 @@ function run() {
 }
 
 
-const Enemies = (name, hp){
-  this.name = name
-  this.hp = hp
-}
-const newEnemy = new Enemies("Blorp", 100)
+// const Enemies = (name, hp){
+//   this.name = name
+//   this.hp = hp
+// }
+// const newEnemy = new Enemies("Blorp", 100)
 
 
 
